@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[192],{6192:(t,s,n)=>{n.r(s),n.d(s,{default:()=>l});const e={name:"404"};const l=(0,n(1900).Z)(e,(function(){this._self._c;return this._m(0)}),[function(){var t=this._self._c;return t("div",[t("h1",{staticClass:"h3 mb-4 text-gray-800"},[this._v("Blank Page")])])}],!1,null,null,null).exports}}]);

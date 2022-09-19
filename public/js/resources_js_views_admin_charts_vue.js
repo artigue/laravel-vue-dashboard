@@ -1,12 +1,12 @@
+"use strict";
 (self["webpackChunk"] = self["webpackChunk"] || []).push([["resources_js_views_admin_charts_vue"],{
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/admin/charts.vue?vue&type=script&lang=js&":
-/*!**************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/admin/charts.vue?vue&type=script&lang=js& ***!
-  \**************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/admin/charts.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/admin/charts.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -14,85 +14,103 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _chart_demo_chart_area_demo__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../chart/demo/chart-area-demo */ "./resources/js/chart/demo/chart-area-demo.js");
 /* harmony import */ var _chart_demo_chart_pie_demo__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../chart/demo/chart-pie-demo */ "./resources/js/chart/demo/chart-pie-demo.js");
 /* harmony import */ var _chart_demo_chart_bar_demo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../chart/demo/chart-bar-demo */ "./resources/js/chart/demo/chart-bar-demo.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "Charts",
   mounted: function mounted() {
-    (0,_chart_demo_chart_area_demo__WEBPACK_IMPORTED_MODULE_0__.default)();
-    (0,_chart_demo_chart_pie_demo__WEBPACK_IMPORTED_MODULE_1__.default)();
-    (0,_chart_demo_chart_bar_demo__WEBPACK_IMPORTED_MODULE_2__.default)();
+    (0,_chart_demo_chart_area_demo__WEBPACK_IMPORTED_MODULE_0__["default"])();
+    (0,_chart_demo_chart_pie_demo__WEBPACK_IMPORTED_MODULE_1__["default"])();
+    (0,_chart_demo_chart_bar_demo__WEBPACK_IMPORTED_MODULE_2__["default"])();
   }
 });
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/admin/charts.vue?vue&type=template&id=42b4e5d8&":
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/admin/charts.vue?vue&type=template&id=42b4e5d8& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function render() {
+  var _vm = this,
+      _c = _vm._self._c;
+
+  return _vm._m(0);
+};
+
+var staticRenderFns = [function () {
+  var _vm = this,
+      _c = _vm._self._c;
+
+  return _c("div", [_c("h1", {
+    staticClass: "h3 mb-2 text-gray-800"
+  }, [_vm._v("Charts")]), _vm._v(" "), _c("p", {
+    staticClass: "mb-4"
+  }, [_vm._v("\n    Chart.js is a third party plugin that is used to generate the charts in\n    this theme. The charts below have been customized - for further\n    customization options, please visit the\n    "), _c("a", {
+    attrs: {
+      target: "_blank",
+      href: "https://www.chartjs.org/docs/latest/"
+    }
+  }, [_vm._v("official Chart.js documentation")]), _vm._v(".\n  ")]), _vm._v(" "), _c("div", {
+    staticClass: "row"
+  }, [_c("div", {
+    staticClass: "col-xl-8 col-lg-7"
+  }, [_c("div", {
+    staticClass: "card shadow mb-4"
+  }, [_c("div", {
+    staticClass: "card-header py-3"
+  }, [_c("h6", {
+    staticClass: "m-0 font-weight-bold text-primary"
+  }, [_vm._v("Area Chart")])]), _vm._v(" "), _c("div", {
+    staticClass: "card-body"
+  }, [_c("div", {
+    staticClass: "chart-area"
+  }, [_c("canvas", {
+    attrs: {
+      id: "myAreaChart"
+    }
+  })]), _vm._v(" "), _c("hr"), _vm._v("\n          Styling for the area chart can be found in the\n          "), _c("code", [_vm._v("/js/demo/chart-area-demo.js")]), _vm._v(" file.\n        ")])]), _vm._v(" "), _c("div", {
+    staticClass: "card shadow mb-4"
+  }, [_c("div", {
+    staticClass: "card-header py-3"
+  }, [_c("h6", {
+    staticClass: "m-0 font-weight-bold text-primary"
+  }, [_vm._v("Bar Chart")])]), _vm._v(" "), _c("div", {
+    staticClass: "card-body"
+  }, [_c("div", {
+    staticClass: "chart-bar"
+  }, [_c("canvas", {
+    attrs: {
+      id: "myBarChart"
+    }
+  })]), _vm._v(" "), _c("hr"), _vm._v("\n          Styling for the bar chart can be found in the\n          "), _c("code", [_vm._v("/js/demo/chart-bar-demo.js")]), _vm._v(" file.\n        ")])])]), _vm._v(" "), _c("div", {
+    staticClass: "col-xl-4 col-lg-5"
+  }, [_c("div", {
+    staticClass: "card shadow mb-4"
+  }, [_c("div", {
+    staticClass: "card-header py-3"
+  }, [_c("h6", {
+    staticClass: "m-0 font-weight-bold text-primary"
+  }, [_vm._v("Donut Chart")])]), _vm._v(" "), _c("div", {
+    staticClass: "card-body"
+  }, [_c("div", {
+    staticClass: "chart-pie pt-4"
+  }, [_c("canvas", {
+    attrs: {
+      id: "myPieChart"
+    }
+  })]), _vm._v(" "), _c("hr"), _vm._v("\n          Styling for the donut chart can be found in the\n          "), _c("code", [_vm._v("/js/demo/chart-pie-demo.js")]), _vm._v(" file.\n        ")])])])])]);
+}];
+render._withStripped = true;
+
 
 /***/ }),
 
@@ -102,7 +120,6 @@ __webpack_require__.r(__webpack_exports__);
   \****************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ chartAreaDemo)
@@ -240,7 +257,6 @@ function chartAreaDemo() {
   \***************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ chartBarDemo)
@@ -371,7 +387,6 @@ function chartBarDemo() {
   \***************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ chartPieDemo)
@@ -421,7 +436,6 @@ function chartPieDemo() {
   \*********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -436,8 +450,8 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 ;
-var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
-  _charts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _charts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _charts_vue_vue_type_template_id_42b4e5d8___WEBPACK_IMPORTED_MODULE_0__.render,
   _charts_vue_vue_type_template_id_42b4e5d8___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
   false,
@@ -460,13 +474,12 @@ component.options.__file = "resources/js/views/admin/charts.vue"
   \**********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_charts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./charts.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/admin/charts.vue?vue&type=script&lang=js&");
- /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_charts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_charts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./charts.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/admin/charts.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_charts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
@@ -476,133 +489,12 @@ __webpack_require__.r(__webpack_exports__);
   \****************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_charts_vue_vue_type_template_id_42b4e5d8___WEBPACK_IMPORTED_MODULE_0__.render),
-/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_charts_vue_vue_type_template_id_42b4e5d8___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_charts_vue_vue_type_template_id_42b4e5d8___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_charts_vue_vue_type_template_id_42b4e5d8___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_charts_vue_vue_type_template_id_42b4e5d8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./charts.vue?vue&type=template&id=42b4e5d8& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/admin/charts.vue?vue&type=template&id=42b4e5d8&");
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/admin/charts.vue?vue&type=template&id=42b4e5d8&":
-/*!*******************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/admin/charts.vue?vue&type=template&id=42b4e5d8& ***!
-  \*******************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* binding */ render),
-/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
-/* harmony export */ });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("h1", { staticClass: "h3 mb-2 text-gray-800" }, [_vm._v("Charts")]),
-      _vm._v(" "),
-      _c("p", { staticClass: "mb-4" }, [
-        _vm._v(
-          "\n    Chart.js is a third party plugin that is used to generate the charts in\n    this theme. The charts below have been customized - for further\n    customization options, please visit the\n    "
-        ),
-        _c(
-          "a",
-          {
-            attrs: {
-              target: "_blank",
-              href: "https://www.chartjs.org/docs/latest/"
-            }
-          },
-          [_vm._v("official Chart.js documentation")]
-        ),
-        _vm._v(".\n  ")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-xl-8 col-lg-7" }, [
-          _c("div", { staticClass: "card shadow mb-4" }, [
-            _c("div", { staticClass: "card-header py-3" }, [
-              _c("h6", { staticClass: "m-0 font-weight-bold text-primary" }, [
-                _vm._v("Area Chart")
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _c("div", { staticClass: "chart-area" }, [
-                _c("canvas", { attrs: { id: "myAreaChart" } })
-              ]),
-              _vm._v(" "),
-              _c("hr"),
-              _vm._v(
-                "\n          Styling for the area chart can be found in the\n          "
-              ),
-              _c("code", [_vm._v("/js/demo/chart-area-demo.js")]),
-              _vm._v(" file.\n        ")
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "card shadow mb-4" }, [
-            _c("div", { staticClass: "card-header py-3" }, [
-              _c("h6", { staticClass: "m-0 font-weight-bold text-primary" }, [
-                _vm._v("Bar Chart")
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _c("div", { staticClass: "chart-bar" }, [
-                _c("canvas", { attrs: { id: "myBarChart" } })
-              ]),
-              _vm._v(" "),
-              _c("hr"),
-              _vm._v(
-                "\n          Styling for the bar chart can be found in the\n          "
-              ),
-              _c("code", [_vm._v("/js/demo/chart-bar-demo.js")]),
-              _vm._v(" file.\n        ")
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-xl-4 col-lg-5" }, [
-          _c("div", { staticClass: "card shadow mb-4" }, [
-            _c("div", { staticClass: "card-header py-3" }, [
-              _c("h6", { staticClass: "m-0 font-weight-bold text-primary" }, [
-                _vm._v("Donut Chart")
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _c("div", { staticClass: "chart-pie pt-4" }, [
-                _c("canvas", { attrs: { id: "myPieChart" } })
-              ]),
-              _vm._v(" "),
-              _c("hr"),
-              _vm._v(
-                "\n          Styling for the donut chart can be found in the\n          "
-              ),
-              _c("code", [_vm._v("/js/demo/chart-pie-demo.js")]),
-              _vm._v(" file.\n        ")
-            ])
-          ])
-        ])
-      ])
-    ])
-  }
-]
-render._withStripped = true
-
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_charts_vue_vue_type_template_id_42b4e5d8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./charts.vue?vue&type=template&id=42b4e5d8& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/admin/charts.vue?vue&type=template&id=42b4e5d8&");
 
 
 /***/ })
